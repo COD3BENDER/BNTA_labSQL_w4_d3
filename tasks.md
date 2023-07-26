@@ -94,7 +94,7 @@ SELECT * FROM matches WHERE division_code = 'E0' ORDER BY (fthg + ftag) DESC, ft
 
 ```sql
 <!-- Copy solution here -->
-
+SELECT division_code, season FROM matches ORDER BY (fthg + ftag) DESC, fthg DESC LIMIT 1
 
 ```
 
